@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-position: fixed;
+    background-size: cover;
+    background-color: #266553;
+    display: inline-block;
+}
+.flex-container{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    align-items: center;
+    justify-content:center;
+    padding: 10px 20px;
+    white-space: 2px;
+    color: white;
+    top: 80px;
+    left: 29%;
+    box-shadow: -2px 0px 15px 11px  rgba(0, 0, 0, 0.67);
+    border-radius: 32px;
+    background: white;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.flex-box{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 50%;
+}
+.flex-box svg{
+    position: relative;
+    bottom: 19px;
+}
+.flex-box:nth-child(4) svg{
+    width: 41px;
+    height: 50px;
+}
+.flex-box a{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 60px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Archivo", sans-serif;
+    font-weight: bold;
+}
+.flex-box:hover{
+    width: 120px;
+    border-radius: 27px;
+    background-color: white;
+    transition: ease ;
+    cursor: pointer;
+}
+.flex-box:hover svg{
+    position: relative;
+    bottom: 1.3px;
+    left: -65px;
+    transition:.1s ;
+}
+.flex-box:nth-child(2):hover svg{
+    left: -55px;
+    position: relative;
+}
+.flex-box:nth-child(3):hover svg{
+    left: -60px;
+    position: relative;
+}
+.flex-box:nth-child(4):hover svg{
+    left: -49px;
+    position: relative;
+}
+.flex-box:nth-child(1):hover a{
+    position: relative;
+    top: -20px;
+    color: rgb(0, 0, 0);
+    font-style: bold;
+    font-family: "Anonymous Pro", monospace;
+  font-weight: 800;
+  font-style: normal;
+    left: 50px;
+}
+.flex-box:nth-child(2):hover a{
+    position: relative;
+    top: -20px;
+    color: rgb(0, 0, 0);
+    left: 55px;
+    font-style: bold;
+    font-family: "Anonymous Pro", monospace;
+  font-weight: 800;
+}
+.flex-box:nth-child(3):hover a{
+    position: relative;
+    top: -20px;
+    color: rgb(0, 0, 0);
+    left: 55px;
+    font-style: bold;
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 800;
+}
+.flex-box:nth-child(4):hover a{
+    position: relative;
+    top: -20px;
+    color: rgb(0, 0, 0);
+    left: 50px;
+    font-style: bold;
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 800;
+}
+p{
+    color: white;
+    font-size: 20px;
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 39%;
+}
